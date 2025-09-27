@@ -4,6 +4,7 @@ import { PropertyTypes } from "@/components/property-types"
 import { FeaturedProperties } from "@/components/featured-properties"
 import { ServicesSection } from "@/components/services-section"
 import { LoanSection } from "@/components/loan-section"
+import { Footer } from "@/components/footer"
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
       <FeaturedProperties />
       <ServicesSection />
       <LoanSection />
+      <Footer />
     </main>
   )
 }
